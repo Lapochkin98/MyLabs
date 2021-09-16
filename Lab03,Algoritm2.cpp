@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // это 8 вариант
 #include <math.h>
 #include <iomanip>
 using namespace std;
