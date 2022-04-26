@@ -1,6 +1,4 @@
 spisok = [1, 2, 5], [4, 20, 3], [0, 8, 4]
-index_of_max = 0
-index_of_min = 0
 #Вывод всего списка
 print("Список до сортировки:")
 for row in spisok:
@@ -9,18 +7,29 @@ for row in spisok:
     print()
 
 #Меняем местами
+minIndex = {}
+maxIndex = {}
+maxNumber = spisok[0][0]
+minNumber = spisok[0][0]
+for i in range(len(spisok)):
+    for j in range(len(spisok[i])):
+        if (spisok[i][j] > maxNumber):
+            maxNumber = spisok[i][j]
+            maxIndex = {'keyX': i, 'keyY': j}
+        if (spisok[i][j] < minNumber):
+            minNumber = spisok[i][j]
+            minIndex = {'keyX': i, 'keyY': j}
+
+        
+        #number = max(max(spisok))
+        #number1 = min(min(spisok))
+print(maxNumber, minNumber)
+print(maxIndex)
+print(minIndex)
+spisok[minIndex['keyX']][minIndex['keyY']] = maxNumber
+spisok[maxIndex['keyX']][maxIndex['keyY']] = minNumber
+
 for row in spisok:
     for elem in row:
-        number = max(max(spisok))
-        number1 = min(min(spisok))
-spisok[0].insert(spisok.index(number),number1)
-spisok.remove(number)
-spisok[1].insert(spisok.index(number),number1)
-spisok.remove(number)
-spisok[2].insert(spisok.index(number),number1)
-spisok.remove(number)
-spisok[0].insert(spisok.index(number1),number)
-spisok[1].insert(spisok.index(number1),number)
-spisok[2].insert(spisok.index(number1),number)
-print(number)
-print(number1)
+        print(elem, end=' ')
+    print()
