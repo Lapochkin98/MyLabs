@@ -25,7 +25,15 @@ print(vals)
 print(vecs)
 
 #Задание 2
-
+matrica = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(matrica)
+result = np.fliplr(matrica).diagonal()
+result_diag = list(result) 
+result = list((np.array(matrica)).reshape(9,))
+for i in result_diag:
+    result.remove(i)
+######################
+print(result)
 
 #Задание 3
 size = int(input("Введите размер массива: "))
