@@ -25,15 +25,26 @@ print(vals)
 print(vecs)
 
 #Задание 2
-matrica = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(matrica)
-result = np.fliplr(matrica).diagonal()
-result_diag = list(result) 
-result = list((np.array(matrica)).reshape(9,))
-for i in result_diag:
-    result.remove(i)
-######################
-print(result)
+user_n = int(input('Введите N: '))
+user_m = int(input('Введите M: '))
+
+matrix = []
+for i in range(user_n):
+    m_list = []
+    for j in range(user_m):
+        m_list.append(int(input(f'Введите элемент {i}x{j}: ')))
+    matrix.append(m_list)
+
+matrix_end = np.array(matrix)
+print(f'Ваша матрица: {matrix_end}')
+
+result = 1
+for i in range(user_n):
+    if i+1 != user_n:
+        result = result * matrix[i][(user_m-1)-(i+1)]
+    if i != 0:
+        result = result * matrix[i][(user_m-1)-(i-1)]
+print(f'Ответ: {result}')
 
 #Задание 3
 size = int(input("Введите размер массива: "))
