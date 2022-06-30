@@ -1,0 +1,3 @@
+school = {
+    'russian' : "Tanya" 
+}
