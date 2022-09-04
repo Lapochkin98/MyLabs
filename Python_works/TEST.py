@@ -1,3 +1,0 @@
-school = {
-    'russian' : "Tanya" 
-}
