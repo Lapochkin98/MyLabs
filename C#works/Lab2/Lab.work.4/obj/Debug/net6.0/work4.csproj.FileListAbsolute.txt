@@ -1,0 +1,15 @@
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\bin\Debug\net6.0\work4.exe
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\bin\Debug\net6.0\work4.deps.json
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\bin\Debug\net6.0\work4.runtimeconfig.json
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\bin\Debug\net6.0\work4.dll
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\bin\Debug\net6.0\work4.pdb
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.csproj.AssemblyReference.cache
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.AssemblyInfoInputs.cache
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.AssemblyInfo.cs
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.csproj.CoreCompileInputs.cache
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.dll
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\refint\work4.dll
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.pdb
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\work4.genruntimeconfig.cache
+C:\Users\dorak\Documents\GitHub\MyLabs\C#works\Lab2\work4\obj\Debug\net6.0\ref\work4.dll
