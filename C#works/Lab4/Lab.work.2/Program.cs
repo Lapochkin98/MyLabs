@@ -1,33 +1,52 @@
 ﻿internal class Program
 {
+    public static void Square(double a, double b, double c, out double x1, out double x2)
+    {
+        double Discr;
+        //ax^2+bx+c
+        //Discr = b^2-4ac
+        Discr = Math.Pow(b, 2) - 4.0 * a * c;
+        if (Discr > 0)
+        {
+            x1 = (-b + Math.Sqrt(Discr)) / (2.0*a);
+            x2 = (-b - Math.Sqrt(Discr)) / (2.0 * a);
+        }
+        else if (Discr == 0)
+        {
+            x1 = (-b / (2 * a));
+            x2 = (-b / (2 * a));
+        }
+        else
+        {
+            Console.WriteLine("Корней нет");
+            x1 = 0;
+            x2 = 0;
+        }
+    }
+
     private static void Main(string[] args)
     {
-        double user_numbers, admin_arifmetic = 0, number_count = -1, min_number = double.MaxValue, minus_count = 0, plus_count = 0;
-        Console.WriteLine("Введите числа: ");
-        do
+        double a, b, c;
+        Console.WriteLine("Введите а:");
+        a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Введите b:");
+        b = double.Parse(Console.ReadLine());
+        Console.WriteLine("Введите c:");
+        c = double.Parse(Console.ReadLine());
+        double x1, x2;
+        Square(a, b, c, out x1, out x2);
+        if (x1 == x2)
         {
-            user_numbers = double.Parse(Console.ReadLine());
-            admin_arifmetic += user_numbers;
-            number_count++;
-            if (user_numbers < min_number && user_numbers != 0)
-            {
-                min_number = user_numbers;
-            }
-            if (user_numbers < 0 & user_numbers !=0)
-            {
-                minus_count++;
-            }
-            else if (user_numbers > 0 & user_numbers !=0)
-            {
-                plus_count++;
-            }
+            Console.WriteLine("Одинаковые корни: " + x1);
         }
-        while (user_numbers != 0);
-        Console.WriteLine("Количество цифр: " + number_count);
-        Console.WriteLine("Среднее арифметическое: " + admin_arifmetic/number_count);
-        Console.WriteLine("Наименьшее число: " + min_number);
-        Console.WriteLine("Количество отрицательных значений: " + minus_count);
-        Console.WriteLine("Количество положительных значений: " + plus_count);
+        else
+        {
+            Console.WriteLine("Первый корень: " + x1);
+            Console.WriteLine("Первый корень: " + x2);
+        }
+        
+    }   
 
-    }
+
+
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita Dubrovski\\source\\repos\\Lab4\\Lab4\\Lab.work.1.csproj": {}
+    "D:\\College Labs\\MyLabs\\C#works\\Lab4\\Lab.work.1\\Lab.work.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita Dubrovski\\source\\repos\\Lab4\\Lab4\\Lab.work.1.csproj": {
+    "D:\\College Labs\\MyLabs\\C#works\\Lab4\\Lab.work.1\\Lab.work.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita Dubrovski\\source\\repos\\Lab4\\Lab4\\Lab.work.1.csproj",
+        "projectUniqueName": "D:\\College Labs\\MyLabs\\C#works\\Lab4\\Lab.work.1\\Lab.work.1.csproj",
         "projectName": "Lab.work.1",
-        "projectPath": "C:\\Users\\Nikita Dubrovski\\source\\repos\\Lab4\\Lab4\\Lab.work.1.csproj",
-        "packagesPath": "C:\\Users\\Nikita Dubrovski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita Dubrovski\\source\\repos\\Lab4\\Lab4\\obj\\",
+        "projectPath": "D:\\College Labs\\MyLabs\\C#works\\Lab4\\Lab.work.1\\Lab.work.1.csproj",
+        "packagesPath": "C:\\Users\\dorak\\.nuget\\packages\\",
+        "outputPath": "D:\\College Labs\\MyLabs\\C#works\\Lab4\\Lab.work.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nikita Dubrovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dorak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

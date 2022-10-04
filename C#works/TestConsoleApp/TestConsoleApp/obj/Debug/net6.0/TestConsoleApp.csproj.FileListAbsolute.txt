@@ -13,3 +13,18 @@ C:\Users\dorak\Documents\GitHub\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj
 C:\Users\dorak\Documents\GitHub\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.pdb
 C:\Users\dorak\Documents\GitHub\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.genruntimeconfig.cache
 C:\Users\dorak\Documents\GitHub\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\ref\TestConsoleApp.dll
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.csproj.AssemblyReference.cache
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.AssemblyInfoInputs.cache
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.AssemblyInfo.cs
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.csproj.CoreCompileInputs.cache
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.dll
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\refint\TestConsoleApp.dll
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.pdb
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.exe
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.deps.json
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.runtimeconfig.json
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.dll
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.pdb
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.genruntimeconfig.cache
+D:\College Labs\MyLabs\C#works\TestConsoleApp\TestConsoleApp\obj\Debug\net6.0\ref\TestConsoleApp.dll

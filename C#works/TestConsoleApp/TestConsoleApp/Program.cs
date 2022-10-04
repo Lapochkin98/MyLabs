@@ -1,33 +1,46 @@
-﻿
-internal class Program
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace FirstApp
 {
-    private static void Main(string[] args)
+    internal class Programm
     {
-        int user_a, user_b,admin_random, user_choise, user_attempts = 0;
-        Random r = new Random();
-
-        Console.WriteLine("Введите начало диапозона: ");
-        user_a = int.Parse(Console.ReadLine());
-        Console.WriteLine("Введите конец диапозона: ");
-        user_b = int.Parse(Console.ReadLine());
-        admin_random = r.Next(user_a, user_b);
-
-        do
+        public static void MinMax(ref double a, ref double b)
         {
-            user_attempts++;
-            if (user_attempts == 1)
+            double max = 0, min = 0;
+            if (a > b)
             {
-                Console.WriteLine("Машина загадала число, каков ваш ответ?:");
+                max = a;
+                min = b;
+            }
+            else if (b > a)
+            {
+                max = b;
+                min = a;
             }
             else
             {
-                Console.WriteLine("Попробуйте ещё раз");
+                max = min = a;
             }
-            user_choise = int.Parse(Console.ReadLine());
+            a = min;
+            b = max;
+            
         }
-        while (user_choise != admin_random);
+        private static void Main(string[] args)
+        {
+            double a, b;
+            Console.WriteLine("Введите а:");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите b: ");
+            b = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("Поздравляю вы угадали!");
-        Console.WriteLine("Ваши попытки: " + user_attempts);
+            MinMax(ref a, ref b);
+            Console.WriteLine("Минимальное значение равно:" + a);
+            Console.WriteLine("Максимальное значение равно:" + b);
+        }
     }
 }

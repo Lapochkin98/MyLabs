@@ -1,38 +1,29 @@
 ﻿internal class Program
 {
+    public static void DigitSum(int K, out double S, out double C)
+    {
+        C = 0;
+        S = 0;
+        if (K < 0)
+        {
+            Console.WriteLine("Ошибка");
+        }
+        while (K % 10 != 0)
+        {
+            S += K % 10;
+            C++;
+            K /= 10;
+        }
+        //Console.WriteLine("Ответ: " + S + ", Количество символов: " + C);
+    }
+
     private static void Main(string[] args)
     {
-
-        double n, sum = 0, eps = 0;
-        try
-        {
-            //Первая часть
-            Console.WriteLine("Первая часть задания: ");
-            Console.WriteLine("Введите количество повторений");
-            n = double.Parse(Console.ReadLine());
-            for (int i = 1; i < n; i++)
-            {
-                sum += 1.0 / Math.Pow((i + 1), 3);
-            }
-            Console.WriteLine("Сумма после n-повторений = " + sum);
-
-            //Вторая часть
-            sum = 0;
-            double number = 1;
-            Console.WriteLine("Вторая часть задания: ");
-            Console.WriteLine("Введите точность(eps): ");
-            eps = double.Parse(Console.ReadLine());
-            while  (1.0 / Math.Pow((number + 1), 3) > eps)
-            {
-                sum += 1.0 / Math.Pow((number + 1), 3);
-                number++;
-            }
-            Console.WriteLine("Ваш ответ = " + sum);
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("Что-то пошло не по плану, проверь код");
-        }
-       
+        int K;
+        Console.WriteLine("Введите число");
+        K = int.Parse(Console.ReadLine());
+        double S, C;
+        DigitSum(K, out S, out C);
+        Console.WriteLine("Ответ: " + S + ", Количество символов: " + C);
     }
 }
