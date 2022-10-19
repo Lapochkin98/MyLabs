@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Lab.work._1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="4afdsfa2sdfw.png" />
+    <None Remove="4rf4uguv2ys41.png" />
+    <None Remove="icons8-логин-в-кружке-100.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="4afdsfa2sdfw.png" />
+    <Resource Include="4rf4uguv2ys41.png" />
+    <Resource Include="icons8-логин-в-кружке-100.png" />
+  </ItemGroup>
+
+</Project>

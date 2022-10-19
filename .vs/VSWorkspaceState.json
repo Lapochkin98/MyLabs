@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\C#works",
+    "\\C#works\\Lab7",
+    "\\C#works\\Lab7\\Lab.work.1",
+    "\\C#works\\Lab7\\Lab.work.2",
+    "\\C#works\\Lab7\\Lab.work.3",
+    "\\C#works\\Lab8",
+    "\\C#works\\Lab8\\Lab.work.1"
   ],
-  "SelectedNode": "\\Lab5_2.sln",
+  "SelectedNode": "\\C#works\\Lab7\\Lab.work.1\\bin",
   "PreviewInSolutionExplorer": false
 }

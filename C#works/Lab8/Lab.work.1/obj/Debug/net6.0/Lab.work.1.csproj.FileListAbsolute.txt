@@ -1,0 +1,15 @@
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.csproj.AssemblyReference.cache
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.AssemblyInfoInputs.cache
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.AssemblyInfo.cs
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.csproj.CoreCompileInputs.cache
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\bin\Debug\net6.0\Lab.work.1.exe
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\bin\Debug\net6.0\Lab.work.1.deps.json
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\bin\Debug\net6.0\Lab.work.1.runtimeconfig.json
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\bin\Debug\net6.0\Lab.work.1.dll
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\bin\Debug\net6.0\Lab.work.1.pdb
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.dll
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\refint\Lab.work.1.dll
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.pdb
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\Lab.work.1.genruntimeconfig.cache
+D:\College Labs\MyLabs\C#works\Lab8\Lab.work.1\obj\Debug\net6.0\ref\Lab.work.1.dll
