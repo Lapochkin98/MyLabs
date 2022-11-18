@@ -1,0 +1,5 @@
+D:\College Labs\MyLabs\C#works\Lab15\Lab.work.1\obj\Debug\net6.0\Lab.work.1.csproj.AssemblyReference.cache
+D:\College Labs\MyLabs\C#works\Lab15\Lab.work.1\obj\Debug\net6.0\Lab.work.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Labs\MyLabs\C#works\Lab15\Lab.work.1\obj\Debug\net6.0\Lab.work.1.AssemblyInfoInputs.cache
+D:\College Labs\MyLabs\C#works\Lab15\Lab.work.1\obj\Debug\net6.0\Lab.work.1.AssemblyInfo.cs
+D:\College Labs\MyLabs\C#works\Lab15\Lab.work.1\obj\Debug\net6.0\Lab.work.1.csproj.CoreCompileInputs.cache
