@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src = "script.js"></script>
+    <meta charset="UTF-8">
+    <title>Lab_work_null</title>
+    <style>
+      *
+      {
+        font-size: larger;
+      }
+      table
+      {
+        border: black solid 2px;
+      }
+      td
+      {
+        border: black solid 2px;
+      }
+    </style>
+</head>
+<body>
+<table>
+  <tr>
+    <td rowspan="2"
+        style="background: lime"
+        onmouseover = "toRed(this)"
+        onmouseleave="this.style.backgroundColor='lime'"
+        onmouseout="this.style.backgroundColor='';"
+        onclick="this.style.backgroundImage='url(4.jpg)';">
+        1-2
+    </td>
+    <td>5</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td rowspan="2" onmouseover="this.style.backgroundColor='red';"
+        onmouseleave="this.style.backgroundColor='lime'"
+        style="background: lime"
+        onmouseout="this.style.backgroundColor='';"
+        onclick="this.style.backgroundImage='url(4.jpg)';">
+        6-7
+    </td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td rowspan="2" onmouseover="this.style.backgroundColor='red';"
+        onmouseleave="this.style.backgroundColor='lime'"
+        style="background: lime"
+        onmouseout="this.style.backgroundColor='';"
+        onclick="this.style.backgroundImage='url(4.jpg)';">
+        11-12
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>8</td>
+  </tr>
+</table>
+</body>
+</html>

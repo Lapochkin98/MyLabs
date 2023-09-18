@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web_10-1</title>
+    <meta charset="UTF-8">
+    <script>
+        let alignmentValues = ['right', 'left', 'end', 'start', 'center', 'justify'];
+        let currentAlignmentIndex = 0;
+
+        function changeAlignment() {
+            let paragraph = document.getElementById('content');
+            paragraph.style.textAlign = alignmentValues[currentAlignmentIndex];
+
+            currentAlignmentIndex++;
+            if (currentAlignmentIndex >= alignmentValues.length) {
+                currentAlignmentIndex = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+<p id="content">Ваше ФИО (полностью), шифр группы, дата рождения</p>
+<button onclick="changeAlignment()">Левая кнопка</button>
+<button onclick="changeAlignment()">Правая кнопка</button>
+</body>
+</html>

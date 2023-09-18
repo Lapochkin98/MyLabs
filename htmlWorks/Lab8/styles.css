@@ -1,0 +1,45 @@
+h1 {
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+@keyframes move {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+    20% {
+        top: 50%;
+        left: 35%;
+    }
+    40% {
+        top: 20%;
+        left: 35%;
+    }
+    60% {
+        top: 20%;
+        left: 65%;
+    }
+    80% {
+        top: 50%;
+        left: 65%;
+    }
+    100% {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    animation: move 5s linear infinite;
+}

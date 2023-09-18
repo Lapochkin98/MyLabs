@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web_10-1</title>
+    <meta charset="UTF-8">
+    <script>
+        let alignmentValues = ['right', 'left', 'end', 'start', 'center'];
+        let currentAlignmentIndex = 0;
+
+        function changeAlignment() {
+            let paragraph = document.getElementById('content');
+            paragraph.style.textAlign = alignmentValues[currentAlignmentIndex];
+
+            currentAlignmentIndex++;
+            if (currentAlignmentIndex >= alignmentValues.length) {
+                currentAlignmentIndex = 0;
+            }
+        }
+
+        function addToStart() {
+            let value = prompt("Введите значение для добавления в начало массива:");
+            alignmentValues.unshift(value);
+            console.log(alignmentValues);
+        }
+
+        function addToEnd() {
+            let value = prompt("Введите значение для добавления в конец массива:");
+            alignmentValues.push(value);
+            console.log(alignmentValues);
+        }
+
+        function removeFromStart() {
+            if (alignmentValues.length > 0) {
+                alignmentValues.shift();
+            }
+            console.log(alignmentValues);
+        }
+
+        function removeFromEnd() {
+            if (alignmentValues.length > 0) {
+                alignmentValues.pop();
+            }
+            console.log(alignmentValues);
+        }
+    </script>
+</head>
+<body>
+<p id="content">Ваше ФИО (полностью), шифр группы, дата рождения</p>
+<button onclick="changeAlignment()">Левая кнопка</button>
+<button onclick="changeAlignment()">Правая кнопка</button>
+<button onclick="addToStart()">Добавить в начало</button>
+<button onclick="addToEnd()">Добавить в конец</button>
+<button onclick="removeFromStart()">Удалить из начала</button>
+<button onclick="removeFromEnd()">Удалить из конца</button>
+</body>
+</html>

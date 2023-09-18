@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>Web_10-1</title>
+    <meta charset="UTF-8">
+    <script>
+        let alignmentValues = ['right', 'left', 'end', 'start', 'center', 'justify'];
+        let currentAlignmentIndex = 0;
+
+        function changeAlignment() {
+            let paragraph = document.getElementById('content');
+            paragraph.style.textAlign = alignmentValues[currentAlignmentIndex];
+
+            currentAlignmentIndex++;
+            if (currentAlignmentIndex >= alignmentValues.length) {
+                currentAlignmentIndex = 0;
+            }
+        }
+    </script>
+</head>
+<body>
+<p id="content">您的全名，组别代号，出生日期</p>
+<button onclick="changeAlignment()">左按钮</button>
+<button onclick="changeAlignment()">右按钮</button>
+</body>
+</html>
+

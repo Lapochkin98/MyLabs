@@ -1,0 +1,749 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html{
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  color: #000000;
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: 2959px;
+  margin: 0 auto;
+  min-height: 2959px;
+  position: relative;
+  width: 1600px;
+}
+.montazhnaya-oblast-1 {
+  height: 2959px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1600px;
+  background: url(images/zadnii_fon.jpg) no-repeat;
+}
+.col-6 {
+  height: 2959px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1600px;
+
+  background: #ffffff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.row {
+  height: 79px;
+  position: absolute;
+  right: 178px;
+  top: 0;
+  width: 1234px;
+}
+.logo {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 373px;
+}
+.healthy-2 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.text {
+  left: 78px;
+  position: absolute;
+  top: 28px;
+  color: #7ad53a;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.uslugi {
+  left: 734px;
+  position: absolute;
+  top: 36px;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.sotrudniki {
+  left: 853px;
+  position: absolute;
+  top: 36px;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.kontakty {
+  left: 1006px;
+  position: absolute;
+  top: 36px;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.otzyvy {
+  left: 1145px;
+  position: absolute;
+  top: 37px;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+.col-8 {
+  height: 637px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 1600px;
+  background: url(images/zadnii_fon_vverhu.png) no-repeat;
+}
+.nazvanie {
+  height: 59px;
+  position: absolute;
+  right: 115px;
+  top: 37px;
+  width: 375px;
+}
+.healthypet {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-size: 57px;
+  letter-spacing: 0;
+}
+.pod-nazvaniem {
+  height: 1px;
+  left: 37px;
+  position: absolute;
+  top: 58px;
+  width: 249px;
+
+  background: #81d742;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-2 {
+  position: absolute;
+  right: 195px;
+  top: 135px;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+.row-2 {
+  height: 150px;
+  left: 437px;
+  position: absolute;
+  top: 375px;
+  width: 726px;
+}
+.col-2 {
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  background: url(images/cart_1.png) no-repeat;
+}
+.vrachi {
+  left: 72px;
+  position: absolute;
+  top: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+.text-3 {
+  left: 30px;
+  position: absolute;
+  top: 92px;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+.col {
+  height: 150px;
+  left: 263px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  background: url(images/cart_2.png) no-repeat;
+}
+.text-4 {
+  left: 31px;
+  position: absolute;
+  top: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+.text-5 {
+  left: 38px;
+  position: absolute;
+  top: 91px;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+.col-3 {
+  height: 150px;
+  left: 526px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  background: url(images/cart_3.png) no-repeat;
+}
+.diagnostika {
+  position: absolute;
+  right: 41px;
+  top: 47px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+.text-6 {
+  left: 11px;
+  position: absolute;
+  top: 92px;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+.zadnii-fon {
+  height: 576px;
+  left: 0;
+  position: absolute;
+  top: 720px;
+  width: 1600px;
+}
+.pravaya-storona {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.col-11 {
+  height: 317px;
+  left: 343px;
+  position: absolute;
+  top: 95px;
+  width: 551px;
+}
+.text-7 {
+  left: 73px;
+  position: absolute;
+  top: 0;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+.liniya-1 {
+  height: 1px;
+  left: 135px;
+  position: absolute;
+  top: 68px;
+  width: 249px;
+
+  background: #81d742;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-8 {
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 551px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.sloi-1 {
+  left: 916px;
+  position: absolute;
+  top: 93px;
+}
+.levaya-storona {
+  left: 1286px;
+  position: absolute;
+  top: 0;
+}
+.razdelenie {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 1297px;
+  width: 1600px;
+  border-top: 1px solid #595959; /*stroke*/
+  border-bottom: 1px solid #595959; /*stroke*/
+  background: #535353;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.wrapper-5 {
+  height: 1223px;
+  left: 0;
+  position: absolute;
+  top: 1299px;
+  width: 1600px;
+}
+.text-9 {
+  left: 365px;
+  position: absolute;
+  top: 242px;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-10 {
+  left: 686px;
+  position: absolute;
+  top: 242px;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-11 {
+  left: 1014px;
+  position: absolute;
+  top: 242px;
+  line-height: 1.2;
+  text-align: center;
+}
+.sloi-2 {
+  left: 351px;
+  position: absolute;
+  top: 103px;
+}
+.sloi-3 {
+  left: 517px;
+  position: absolute;
+  top: 357px;
+}
+.text-12 {
+  left: 518px;
+  position: absolute;
+  top: 500px;
+  line-height: 1.2;
+  text-align: center;
+}
+.text-13 {
+  left: 848px;
+  position: absolute;
+  top: 502px;
+  line-height: 1.2;
+  text-align: center;
+}
+.liniya-1-2 {
+  height: 1px;
+  left: 757px;
+  position: absolute;
+  top: 87px;
+  width: 82px;
+
+  background: #81d742;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-14 {
+  left: 706px;
+  position: absolute;
+  top: 47px;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: center;
+}
+.col-9 {
+  height: 522px;
+  left: 0;
+  position: absolute;
+  top: 701px;
+  width: 1600px;
+
+  background: #f5f5f5;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.row-5 {
+  height: 102px;
+  position: absolute;
+  right: 491px;
+  top: 29px;
+  width: 607px;
+}
+.text-15 {
+  left: 5px;
+  position: absolute;
+  top: 69px;
+  font-size: 24px;
+  text-align: center;
+}
+.col-15 {
+  height: 102px;
+  left: 167px;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+.text-16 {
+  left: 1px;
+  position: absolute;
+  top: 0;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.podcherkivanie {
+  height: 1px;
+  left: 92px;
+  position: absolute;
+  top: 36px;
+  width: 82px;
+
+  background: #81d742;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.input-1 {
+  left: 0;
+  position: absolute;
+  top: 61px;
+}
+.row-6 {
+  height: 41px;
+  position: absolute;
+  right: 491px;
+  top: 165px;
+  width: 603px;
+}
+.text-17 {
+  left: 1px;
+  position: absolute;
+  top: 9px;
+  font-size: 24px;
+  text-align: center;
+}
+.input-2 {
+  left: 163px;
+  position: absolute;
+  top: 0;
+}
+.row-7 {
+  height: 41px;
+  position: absolute;
+  right: 491px;
+  top: 236px;
+  width: 605px;
+}
+.text-18 {
+  left: 1px;
+  position: absolute;
+  top: 7px;
+  font-size: 24px;
+  text-align: center;
+}
+.input-3 {
+  left: 165px;
+  position: absolute;
+  top: 0;
+}
+.row-8 {
+  height: 41px;
+  position: absolute;
+  right: 491px;
+  top: 309px;
+  width: 599px;
+}
+.soobshenie {
+  left: 1px;
+  position: absolute;
+  top: 7px;
+  font-size: 24px;
+  text-align: center;
+}
+.input-4 {
+  left: 159px;
+  position: absolute;
+  top: 0;
+}
+.button-1 {
+  height: 36px;
+  position: absolute;
+  right: 491px;
+  top: 373px;
+  width: 142px;
+  background: url(images/pryamougolnik_4.png) no-repeat;
+}
+.otpravit {
+  left: 25px;
+  position: absolute;
+  color: #ffffff;
+  line-height: 36px;
+  text-align: center;
+}
+.text-19 {
+  position: absolute;
+  right: 538px;
+  top: 468px;
+  line-height: 1.2;
+  text-align: center;
+}
+.sloi-10 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.sloi-11 {
+  left: 1284px;
+  position: absolute;
+  top: 0;
+}
+.col-4 {
+  height: 338px;
+  left: 0;
+  position: absolute;
+  top: 2522px;
+  width: 1600px;
+
+  background: #d6d6d6;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.kontakty-2 {
+  height: 124px;
+  left: 360px;
+  position: absolute;
+  top: 25px;
+  width: 166px;
+}
+.kontakty-3 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+}
+.text-20 {
+  left: 0;
+  position: absolute;
+  top: 47px;
+  font-size: 18px;
+}
+.text-21 {
+  left: 0;
+  position: absolute;
+  top: 76px;
+  font-size: 18px;
+  text-align: center;
+}
+.text-22 {
+  left: 1px;
+  position: absolute;
+  top: 105px;
+  font-size: 18px;
+  text-align: center;
+}
+.gorod {
+  height: 78px;
+  left: 358px;
+  position: absolute;
+  top: 210px;
+  width: 218px;
+}
+.text-23 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+.text-24 {
+  left: 2px;
+  position: absolute;
+  top: 31px;
+  text-align: center;
+}
+.text-25 {
+  left: 2px;
+  position: absolute;
+  top: 62px;
+}
+.fon-holder {
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 2894px;
+  width: 1600px;
+
+  background: #81d742;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-26 {
+  left: 414px;
+  position: absolute;
+  top: 25px;
+  text-align: center;
+}
+.text-26 > * {
+  text-align: center;
+}
+.text-style {
+  line-height: 19px;
+}

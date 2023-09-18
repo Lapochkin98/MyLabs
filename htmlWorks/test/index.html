@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <META charset="UTF-8">
+    <title>Пример формы в HTML</title>
+</head>
+<body>
+<h1>Форма обратной связи</h1>
+<form action="submit.php" method="POST">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="address">Адрес:</label>
+    <input type="text" id="address" name="address" required>
+    <br>
+    <label for="comment">Комментарий:</label>
+    <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+    <br>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>

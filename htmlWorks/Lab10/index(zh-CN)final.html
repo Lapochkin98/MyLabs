@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>Web_10-1</title>
+    <meta charset="UTF-8">
+    <script>
+        let alignmentValues = ['right', 'left', 'end', 'start', 'center'];
+        let currentAlignmentIndex = 0;
+        let customAlignmentValues = [];
+
+        function changeAlignment() {
+            let paragraph = document.getElementById('content');
+            paragraph.style.textAlign = alignmentValues[currentAlignmentIndex];
+
+            currentAlignmentIndex++;
+            if (currentAlignmentIndex >= alignmentValues.length) {
+                currentAlignmentIndex = 0;
+            }
+        }
+
+        function addToStart() {
+            let value = prompt("请输入要添加到数组开头的值:");
+            customAlignmentValues.unshift(value);
+        }
+
+        function addToEnd() {
+            let value = prompt("请输入要添加到数组末尾的值:");
+            customAlignmentValues.push(value);
+        }
+
+        function removeFromStart() {
+            if (customAlignmentValues.length > 0) {
+                customAlignmentValues.shift();
+            }
+        }
+
+        function removeFromEnd() {
+            if (customAlignmentValues.length > 0) {
+                customAlignmentValues.pop();
+            }
+        }
+
+        function updateAlignmentValues() {
+            alignmentValues = alignmentValues.concat(customAlignmentValues);
+        }
+    </script>
+</head>
+<body>
+<p id="content">您的全名，组别代号，出生日期</p>
+<button onclick="changeAlignment()">左按钮</button>
+<button onclick="changeAlignment()">右按钮</button>
+<button onclick="addToStart()">添加到开头</button>
+<button onclick="addToEnd()">添加到末尾</button>
+<button onclick="removeFromStart()">从开头删除</button>
+<button onclick="removeFromEnd()">从末尾删除</button>
+<button onclick="updateAlignmentValues()">更新对齐方式</button>
+</body>
+</html>

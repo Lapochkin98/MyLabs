@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form style="border: 2px dashed black">
+    <label for="country">Страна-изготовитель:</label>
+    <input type="text" id="country" name="country">
+
+    <br><label for="printer-brand">Марка принтера:</label>
+    <input type="text" id="printer-brand" name="printer-brand">
+
+    <br><label for="printer-model">Модель:</label>
+    <input type="text" id="printer-model" name="printer-model">
+
+    <br><label for="printing-method">Способ печати:</label>
+    <select id="printing-method" name="printing-method">
+        <option value="laser">Лазерный</option>
+        <option value="ink jet">Струйный</option>
+        <option value="thermal">Термический</option>
+        <option value="3d">3D</option>
+    </select>
+
+    <br><label>Количество листов печати:</label>
+
+    <input type="checkbox" id="printing-sheets-1" name="printing-sheets" value="100">
+    <label for="printing-sheets-1">100</label>
+
+    <input type="checkbox" id="printing-sheets-2" name="printing-sheets" value="200">
+    <label for="printing-sheets-2">200</label>
+
+    <input type="checkbox" id="printing-sheets-3" name="printing-sheets" value="300">
+    <label for="printing-sheets-3">300</label>
+
+    <input type="checkbox" id="printing-sheets-4" name="printing-sheets" value="400">
+    <label for="printing-sheets-4">400</label>
+
+    <input type="checkbox" id="printing-sheets-5" name="printing-sheets" value="500">
+    <label for="printing-sheets-5">500</label>
+
+    <br><label for="price">Цена:</label>
+    <input type="text" id="price" name="price">
+
+    <label for="product-code">Код товара:</label>
+    <input type="text" id="product-code" name="product-code" maxlength="11">
+
+    <br><label for="full-name">Ф.И.О. клиента:</label>
+    <input type="text" id="full-name" name="full-name">
+
+    <br><label for="address">Домашний адрес:</label>
+    <input type="text" id="address" name="address">
+
+    <br><label for="phone">Контактный телефон:</label>
+    <input type="text" id="phone" name="phone">
+
+    <br><label for="additional-info">Дополнительные сведения:</label>
+
+    <textarea id="additional-info" name="additional-info" rows="4" cols="50"></textarea>
+
+    <br><label>Способ доставки:</label>
+
+    <br><input type="radio" id="delivery-method-1" name="delivery-method" value="courier">
+    <label for="delivery-method-1">Курьерская доставка</label>
+
+    <br><input type="radio" id="delivery-method-2" name="delivery-method" value="post">
+    <label for="delivery-method-2">Почтовая доставка</label>
+
+    <br><input type="radio" id="delivery-method-3" name="delivery-method" value="pickup">
+    <label for="delivery-method-3">Самовывоз</label>
+    <br>
+    <button type="submit">Отправить данные</button>
+    <button type="reset">Сбросить данные</button>
+</form>
+</body>
+</html>
